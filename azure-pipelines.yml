@@ -14,7 +14,7 @@ steps:
     repository: $(imageName)
     command: buildAndPush
     Dockerfile: Dockerfile
-    containerRegistry: KrushnaAzure
+    containerRegistry: KrushnaACR
     tags: |
       $(Build.BuildId)
       latest
